@@ -1,4 +1,4 @@
-# appskyline-com
+# AppSkyline
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-appskyline-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://appskyline.com/
+AppSkyline is an App Store Optimization platform operated by Waiterio LLC. It helps app developers, ASO managers, and growth teams track keyword positions, inspect live store results, research competing apps, and evaluate listing metadata across the iOS App Store, Mac App Store, Google Play, and Microsoft Store. The service offers a web dashboard, native applications, a REST API, a public CLI, reusable Agent Skills, and an OAuth‑protected MCP server for integration with Claude and ChatGPT.
+
+**Areas:** AppStoreOptimization · Analytics · Marketing · SaaS · DeveloperTools · Company
+
+## AppSkyline on APIs.io
+
+Everything profiled for AppSkyline is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/appskyline-com/](https://apis.io/providers/appskyline-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [AppSkyline Apps API](https://apis.io/apis/appskyline-com/appskyline-com-apps-api/) — The Apps API from AppSkyline — 2 operation(s) for apps.
+- [AppSkyline Batch API](https://apis.io/apis/appskyline-com/appskyline-com-batch-api/) — The Batch API from AppSkyline — 1 operation(s) for batch.
+- [AppSkyline Google Play Publishing API](https://apis.io/apis/appskyline-com/appskyline-com-google-play-publishing-api/) — The Google Play Publishing API from AppSkyline — 13 operation(s) for google play publishing.
+- [AppSkyline Keywords API](https://apis.io/apis/appskyline-com/appskyline-com-keywords-api/) — The Keywords API from AppSkyline — 2 operation(s) for keywords.
+- [AppSkyline Metadata API](https://apis.io/apis/appskyline-com/appskyline-com-metadata-api/) — The Metadata API from AppSkyline — 1 operation(s) for metadata.
+- [AppSkyline Review Status API](https://apis.io/apis/appskyline-com/appskyline-com-review-status-api/) — The Review Status API from AppSkyline — 1 operation(s) for review status.
+- [AppSkyline Sandbox API](https://apis.io/apis/appskyline-com/appskyline-com-sandbox-api/) — The Sandbox API from AppSkyline — 3 operation(s) for sandbox.
+- [AppSkyline Stats API](https://apis.io/apis/appskyline-com/appskyline-com-stats-api/) — The Stats API from AppSkyline — 1 operation(s) for stats.
+- [AppSkyline Webhook subscriptions API](https://apis.io/apis/appskyline-com/appskyline-com-webhook-subscriptions-api/) — The Webhook subscriptions API from AppSkyline — 2 operation(s) for webhook subscriptions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Appskyline Com Agentic Access](https://apis.io/agentic-access/appskyline-com/appskyline-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [App](https://apis.io/schemas/appskyline-com/appskyline-com-app/)
+- [BatchResponse](https://apis.io/schemas/appskyline-com/appskyline-com-batch-response/)
+- [EngagementRow](https://apis.io/schemas/appskyline-com/appskyline-com-engagement-row/)
+- [Keyword](https://apis.io/schemas/appskyline-com/appskyline-com-keyword/)
+- [KeywordPage](https://apis.io/schemas/appskyline-com/appskyline-com-keyword-page/)
+- [WebhookSubscription](https://apis.io/schemas/appskyline-com/appskyline-com-webhook-subscription/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Appskyline Com Context](https://apis.io/jsonld/appskyline-com/appskyline-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AppSkyline API Rules](https://apis.io/rules/appskyline-com/appskyline-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Appskyline Com Authentication](https://apis.io/security/appskyline-com/appskyline-com-authentication/)
+- [Appskyline Com Domain Security](https://apis.io/security/appskyline-com/appskyline-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Appskyline Com Plans Pricing](https://apis.io/plans/appskyline-com/appskyline-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://appskyline.com/)
+- [Documentation](https://www.appskyline.com/docs/en/)
+- [API reference](https://www.appskyline.com/api/)
+- [Pricing](https://www.appskyline.com/en/pricing/)
+- [Blog](https://www.appskyline.com/blog/en/)
+- [Terms of service](https://www.appskyline.com/en/terms-of-service/)
+- [Privacy policy](https://www.appskyline.com/en/privacy-policy/)
+- [GitHub](https://github.com/appskyline)
+- [Status](https://www.appskyline.com/status)
+
+## API Evangelist rating
+
+**Kin Score 55.6** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 50.5 |
+
+**Agent readiness 42.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/appskyline-com/](https://apis.io/providers/appskyline-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AppSkyline: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/appskyline-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
